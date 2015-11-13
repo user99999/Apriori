@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MushroomTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\TEMP\RSP9B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MushroomTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MushroomTest1\MushroomTest\MushroomTestView.cpp"
+]
+Creating command line "cl.exe @G:\TEMP\RSP9B.tmp" 
+Creating temporary file "G:\TEMP\RSP9C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MushroomTest.pdb" /debug /machine:I386 /out:"Debug/MushroomTest.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\MushroomTest.obj
+.\Debug\MushroomTestDoc.obj
+.\Debug\MushroomTestSet.obj
+.\Debug\MushroomTestView.obj
+.\Debug\StdAfx.obj
+.\Debug\MushroomTest.res
+]
+Creating command line "link.exe @G:\TEMP\RSP9C.tmp"
+<h3>Output Window</h3>
+Compiling...
+MushroomTestView.cpp
+Linking...
+LINK : LNK6004: Debug/MushroomTest.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+MushroomTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
